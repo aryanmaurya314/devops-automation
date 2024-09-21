@@ -1,0 +1,20 @@
+{
+  "name": "devops-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "nodemon",
+    "preinstall": "npx only-allow yarn"
+  },
+  "repository": "https://gitlab.com/aryanmaurya/devops-automation.git",
+  "author": "Aryan Maurya<aryanmaurya@intugine.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
