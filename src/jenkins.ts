@@ -1,1 +1,1 @@
-console.log("Helloo from jenkins build: v2");
+console.log("Helloo from jenkins build: v2";
